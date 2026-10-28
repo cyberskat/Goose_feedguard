@@ -1,0 +1,24 @@
+{
+  "mode": "live_stability_only",
+  "path": "C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\data\\raw\\live-stage7-20261028.jsonl",
+  "accepted_market_messages": 2000,
+  "records": {
+    "session_start": 1,
+    "snapshot": 1,
+    "delta": 1999,
+    "control": 4,
+    "disconnect": 1,
+    "collector_stop": 1
+  },
+  "sha256": "672215e81107fc908060cb70337767b05955066fef344e06d55b4653a1d24995",
+  "bytes": 769305,
+  "reconnections": 0,
+  "disconnect_reasons": [
+    "close timeout"
+  ],
+  "pong_responses": 3,
+  "observed_market_span_seconds": 63.6942301,
+  "collector_stop": "accepted=2000; count reached",
+  "exchange_to_local_latency_measured": false,
+  "language_speed_comparison": false
+}

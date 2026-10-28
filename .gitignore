@@ -1,0 +1,12 @@
+/build/
+/.tools/
+/.venv/
+/.idea/
+/data/raw/*
+/data/normalized/*
+/data/benchmark-*/
+/results/*
+*.exe
+*.dll
+__pycache__/
+CMakeUserPresets.json

@@ -1,0 +1,23 @@
+{
+  "directory": "C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\build\\github-review-location-neutral\\bybit-feedguard",
+  "archive": "C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\build\\github-review-location-neutral\\bybit-feedguard-review.zip",
+  "archive_sha256": "cab3aea374f93493a805875bac6da865acb648761979358c7f24b64964a29b13",
+  "archive_bytes": 2009879,
+  "verified_files": 177,
+  "verified_bytes": 8006107,
+  "language": "en",
+  "publication_status": "awaiting_owner_repository_visibility_license_approval",
+  "verification": {
+    "clean_extraction": true,
+    "portable_audit_rows": 120,
+    "portable_audit_latency_samples": 3303060,
+    "clean_native_build": true,
+    "cpp_tests_passed": 38,
+    "goose_assertions_passed": 46,
+    "three_engine_replay_agrees": true,
+    "regenerated_pngs_byte_identical": false,
+    "location_label_removed": true
+  },
+  "verification_root": "C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\build\\github-smoke-verified\\bybit-feedguard",
+  "public_documents_language": "en"
+}

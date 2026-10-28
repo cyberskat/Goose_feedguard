@@ -1,0 +1,14 @@
+{
+  "path": "data\\raw\\btcusdt-20261027-linear-x25519.jsonl",
+  "accepted_market_messages": 10000,
+  "records": {
+    "session_start": 1,
+    "snapshot": 1,
+    "delta": 9999,
+    "control": 14,
+    "disconnect": 1,
+    "collector_stop": 1
+  },
+  "sha256": "f8bec2387391e0d9e41c5f9bb125bec5022f8ef2697a94cefa6de3571a21c207",
+  "bytes": 4078505
+}

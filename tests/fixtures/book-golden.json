@@ -1,0 +1,117 @@
+[
+  {
+    "valid": false,
+    "session": 1,
+    "u": 0,
+    "seq": 0,
+    "bids": [],
+    "asks": [],
+    "checksum": "2e26fc092cefe0bc",
+    "history_checksum": "32892f061dfde654"
+  },
+  {
+    "valid": true,
+    "session": 1,
+    "u": 2,
+    "seq": 10,
+    "bids": [
+      [
+        1005,
+        4
+      ],
+      [
+        1000,
+        2
+      ]
+    ],
+    "asks": [
+      [
+        1010,
+        6
+      ],
+      [
+        1020,
+        8
+      ]
+    ],
+    "checksum": "e674268449ae430c",
+    "history_checksum": "2b3bc3c0aa41498e"
+  },
+  {
+    "valid": true,
+    "session": 1,
+    "u": 3,
+    "seq": 900,
+    "bids": [
+      [
+        1000,
+        10
+      ]
+    ],
+    "asks": [
+      [
+        1010,
+        6
+      ],
+      [
+        1015,
+        2
+      ],
+      [
+        1020,
+        8
+      ]
+    ],
+    "checksum": "3eee8e4070cae004",
+    "history_checksum": "bb0ee675199a64a7"
+  },
+  {
+    "valid": false,
+    "session": 1,
+    "u": 0,
+    "seq": 0,
+    "bids": [],
+    "asks": [],
+    "checksum": "2e26fc092cefe0bc",
+    "history_checksum": "07cda5221a504ecf"
+  },
+  {
+    "valid": false,
+    "session": 2,
+    "u": 0,
+    "seq": 0,
+    "bids": [],
+    "asks": [],
+    "checksum": "09fb16688567b09f",
+    "history_checksum": "91868e7c58077523"
+  },
+  {
+    "valid": true,
+    "session": 2,
+    "u": 1,
+    "seq": 950,
+    "bids": [],
+    "asks": [
+      [
+        1010,
+        2
+      ],
+      [
+        1020,
+        4
+      ]
+    ],
+    "checksum": "70084ebfcaa3d624",
+    "history_checksum": "880583abf98b15b4"
+  },
+  {
+    "valid": false,
+    "session": 2,
+    "u": 0,
+    "seq": 0,
+    "bids": [],
+    "asks": [],
+    "checksum": "09fb16688567b09f",
+    "history_checksum": "6abb994ed1892e86"
+  }
+]

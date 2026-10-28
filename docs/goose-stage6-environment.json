@@ -1,0 +1,40 @@
+{
+  "goose_release": "v2026.3",
+  "goose_version_output": "goose runtime 4d3da949e563",
+  "goose_compiler_sha256": "bea7d6c98b063ce19c6f35e8395b8626fb6c54fa0a10c9bd88c43f5613501ee9",
+  "clang_version": "clang version 23.1.4 (https://github.com/msys2/MINGW-packages 39c2da431174df09576b662535bdaa688a9bf8e0)\nTarget: x86_64-w64-windows-gnu\nThread model: posix\nInstalledDir: C:/msys64/clang64/bin",
+  "release_native_flags": "-O2",
+  "debug_native_flags": "-O0 -g",
+  "release_exe_sha256": "24e3aa9a134125b2a4d109ab6974aca98adbe54c5568f7fa336fee0624e95ece",
+  "debug_exe_sha256": "06bc340731812d3be978817725a9e3fa6ce5db11509f7157029f37725927e7fd",
+  "input_sha256": "58062375a318a015a7032648d978af9edcdc254432a61bead4899612ba2ebe41",
+  "sources_sha256": {
+    "goose/book.goose": "6a5cd6e45cc5f67a74fabe4be65755dfe508e02d7cff094df24e67fc7e0a4061",
+    "goose/event_reader.goose": "08783d72bc303ecfca35a0b1bc696df394a5255710bfd5e1805d417322bf17a3",
+    "goose/hello.goose": "c1dccf0067f625f9c439f2d97666d9a31f14520c1537091c4950cdeb9a37c1ae",
+    "goose/model.goose": "198ef437165fe631cb86b2b4198f9afe8d7e96f71b285b56f3a152125c3807ed",
+    "goose/orderbook.goose": "ffbf5586cc45206048f2f1c444d6629f5a0818ec2475c7265e3254acd36767c9",
+    "goose/self_tests.goose": "fe980ec3e7acb45b6f5507a705dca71777884fab487b21e5ec861bd66469b7f7"
+  },
+  "correctness_suite": {
+    "tests_run": 7,
+    "failures": 0,
+    "errors": 0,
+    "reader_rejections": 3163,
+    "trace_states_checked": 220218,
+    "self_test_assertions": {
+      "release": 46,
+      "debug": 46
+    },
+    "synthetic_events": 100100,
+    "synthetic_market_events": 99900,
+    "stress_history_checksum": "de7008f1f85dabd9",
+    "real_history_checksum": "133ad3f85b1d7b87"
+  },
+  "boundary_suite": {
+    "tests_run": 3,
+    "failures": 0,
+    "errors": 0
+  },
+  "custom_cpp_engine_calls": false
+}

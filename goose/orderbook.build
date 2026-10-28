@@ -1,0 +1,2 @@
+// Native helpers expose only QPC and Peak Working Set. The kernel is Goose.
+c_sources = ["../src/common/measurement.c"];

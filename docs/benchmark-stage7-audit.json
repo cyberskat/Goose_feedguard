@@ -1,0 +1,202 @@
+{
+  "validated_rows": 120,
+  "validated_latency_samples": 3303060,
+  "source_snapshot": true,
+  "groups": [
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "cpp_map",
+      "median_events_per_sec": 1981440.1241294327,
+      "median_p50_us": 0.3,
+      "median_p99_us": 3.75,
+      "median_p999_us": 8.95,
+      "max_peak_memory_mb": 8.64256,
+      "median_timer_p50_ns": 0.0,
+      "median_timer_p99_ns": 100.0,
+      "clock_resolution_ns": 100.0,
+      "p50_at_or_below_clock_resolution": false
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "cpp_vector",
+      "median_events_per_sec": 2389914.3225776255,
+      "median_p50_us": 0.3,
+      "median_p99_us": 2.9,
+      "median_p999_us": 6.199999999999999,
+      "max_peak_memory_mb": 8.630272,
+      "median_timer_p50_ns": 0.0,
+      "median_timer_p99_ns": 100.0,
+      "clock_resolution_ns": 100.0,
+      "p50_at_or_below_clock_resolution": false
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "goose",
+      "median_events_per_sec": 3831108.412375986,
+      "median_p50_us": 0.2,
+      "median_p99_us": 1.8,
+      "median_p999_us": 4.25,
+      "max_peak_memory_mb": 7.663616,
+      "median_timer_p50_ns": 0.0,
+      "median_timer_p99_ns": 100.0,
+      "clock_resolution_ns": 100.0,
+      "p50_at_or_below_clock_resolution": false
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "cpp_map",
+      "median_events_per_sec": 983171.1225467855,
+      "median_p50_us": null,
+      "median_p99_us": null,
+      "median_p999_us": null,
+      "max_peak_memory_mb": 8.64256,
+      "median_timer_p50_ns": null,
+      "median_timer_p99_ns": null,
+      "clock_resolution_ns": 100.0,
+      "p50_at_or_below_clock_resolution": false
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "cpp_vector",
+      "median_events_per_sec": 1076818.8561943606,
+      "median_p50_us": null,
+      "median_p99_us": null,
+      "median_p999_us": null,
+      "max_peak_memory_mb": 8.634368,
+      "median_timer_p50_ns": null,
+      "median_timer_p99_ns": null,
+      "clock_resolution_ns": 100.0,
+      "p50_at_or_below_clock_resolution": false
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "goose",
+      "median_events_per_sec": 1381320.9819802237,
+      "median_p50_us": null,
+      "median_p99_us": null,
+      "median_p999_us": null,
+      "max_peak_memory_mb": 7.663616,
+      "median_timer_p50_ns": null,
+      "median_timer_p99_ns": null,
+      "clock_resolution_ns": 100.0,
+      "p50_at_or_below_clock_resolution": false
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "cpp_map",
+      "median_events_per_sec": 14089607.492972087,
+      "median_p50_us": 0.1,
+      "median_p99_us": 0.2,
+      "median_p999_us": 0.6,
+      "max_peak_memory_mb": 26.750976,
+      "median_timer_p50_ns": 0.0,
+      "median_timer_p99_ns": 100.0,
+      "clock_resolution_ns": 100.0,
+      "p50_at_or_below_clock_resolution": true
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "cpp_vector",
+      "median_events_per_sec": 19675546.29513124,
+      "median_p50_us": 0.1,
+      "median_p99_us": 0.1,
+      "median_p999_us": 0.25,
+      "max_peak_memory_mb": 26.742784,
+      "median_timer_p50_ns": 0.0,
+      "median_timer_p99_ns": 100.0,
+      "clock_resolution_ns": 100.0,
+      "p50_at_or_below_clock_resolution": true
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "goose",
+      "median_events_per_sec": 36215040.09918678,
+      "median_p50_us": 0.0,
+      "median_p99_us": 0.1,
+      "median_p999_us": 0.1,
+      "max_peak_memory_mb": 25.747456,
+      "median_timer_p50_ns": 0.0,
+      "median_timer_p99_ns": 100.0,
+      "clock_resolution_ns": 100.0,
+      "p50_at_or_below_clock_resolution": true
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "cpp_map",
+      "median_events_per_sec": 2698074.550128919,
+      "median_p50_us": null,
+      "median_p99_us": null,
+      "median_p999_us": null,
+      "max_peak_memory_mb": 26.74688,
+      "median_timer_p50_ns": null,
+      "median_timer_p99_ns": null,
+      "clock_resolution_ns": 100.0,
+      "p50_at_or_below_clock_resolution": false
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "cpp_vector",
+      "median_events_per_sec": 2839549.570922007,
+      "median_p50_us": null,
+      "median_p99_us": null,
+      "median_p999_us": null,
+      "max_peak_memory_mb": 26.750976,
+      "median_timer_p50_ns": null,
+      "median_timer_p99_ns": null,
+      "clock_resolution_ns": 100.0,
+      "p50_at_or_below_clock_resolution": false
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "goose",
+      "median_events_per_sec": 3438153.7128674397,
+      "median_p50_us": null,
+      "median_p99_us": null,
+      "median_p999_us": null,
+      "max_peak_memory_mb": 25.751552,
+      "median_timer_p50_ns": null,
+      "median_timer_p99_ns": null,
+      "clock_resolution_ns": 100.0,
+      "p50_at_or_below_clock_resolution": false
+    }
+  ],
+  "comparisons": [
+    {
+      "dataset": "real",
+      "mode": "core",
+      "goose_vs_optimized_cpp_throughput": 1.6030316970710359,
+      "p99_reduction_percent": 37.93103448275862
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "goose_vs_optimized_cpp_throughput": 1.282779340308006,
+      "p99_reduction_percent": null
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "goose_vs_optimized_cpp_throughput": 1.840611668716323,
+      "p99_reduction_percent": 0.0
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "goose_vs_optimized_cpp_throughput": 1.2108095410889639,
+      "p99_reduction_percent": null
+    }
+  ],
+  "latency_note": "A zero sample is below the clock quantum, not zero processing time; raw overhead is not subtracted."
+}

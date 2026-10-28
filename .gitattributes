@@ -1,0 +1,6 @@
+# Preserve byte-level evidence and source snapshot hashes across Windows checkouts.
+* -text
+*.bin binary
+*.png binary
+*.gz binary
+*.zip binary

@@ -1,0 +1,10 @@
+{
+  "events": 10002,
+  "market_events": 10000,
+  "resets": 2,
+  "levels": 62023,
+  "bytes": 1712640,
+  "sha256": "58062375a318a015a7032648d978af9edcdc254432a61bead4899612ba2ebe41",
+  "metadata_sha256": "b0f271f2cf3d36acea3ff92a5d2f444b43e5e8c9e648092f3b72bb7ddec63084",
+  "payload_crc32": "c1fad413"
+}

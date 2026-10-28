@@ -1,0 +1,8 @@
+{"schema":1,"session":1,"kind":"session_start","recv_utc_ns":100}
+{"schema":1,"session":1,"kind":"snapshot","recv_utc_ns":101,"recv_steady_ns":201,"accepted":true,"raw":{"topic":"orderbook.50.BTCUSDT","type":"snapshot","ts":12345,"cts":12344,"data":{"s":"BTCUSDT","u":2,"seq":10,"b":[["100.50","0.004"],["100.00","0.002"]],"a":[["101.00","0.006"],["102.00","0.008"]]}}}
+{"schema":1,"session":1,"kind":"delta","recv_utc_ns":102,"recv_steady_ns":202,"accepted":true,"raw":{"topic":"orderbook.50.BTCUSDT","type":"delta","ts":12346,"data":{"s":"BTCUSDT","u":3,"seq":900,"b":[["100.50","0"],["100.00","0.010"]],"a":[["101.50","0.002"]]}}}
+{"schema":1,"session":1,"kind":"disconnect","recv_utc_ns":103}
+{"schema":1,"session":2,"kind":"session_start","recv_utc_ns":104}
+{"schema":1,"session":2,"kind":"snapshot","recv_utc_ns":105,"recv_steady_ns":203,"accepted":true,"raw":{"topic":"orderbook.50.BTCUSDT","type":"snapshot","ts":12347,"data":{"s":"BTCUSDT","u":1,"seq":950,"b":[],"a":[["101.00","0.002"],["102.00","0.004"]]}}}
+{"schema":1,"session":2,"kind":"disconnect","recv_utc_ns":106}
+{"schema":1,"session":2,"kind":"collector_stop","recv_utc_ns":107}
