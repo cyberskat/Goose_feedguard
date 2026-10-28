@@ -10,3 +10,9 @@
 *.dll
 __pycache__/
 CMakeUserPresets.json
+
+# Published benchmark evidence and the exact recorded input.
+!/results/stage7-20261028/
+!/data/raw/btcusdt-20261027-linear-x25519.jsonl
+!/data/raw/live-stage7-20261028.jsonl
+!/data/normalized/events.bin

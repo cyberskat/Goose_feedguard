@@ -1,0 +1,51 @@
+{
+  "dataset": "real",
+  "mode": "core",
+  "csv_sha256": "d583869d295177d20be8b7ccfd7239d1eddc83646d14c72c492184542e9e0987",
+  "environment_sha256": "2d5d97aefd85e8afa4c39955add626768f0e38e7680c3426b699de76fc574726",
+  "width": 1600,
+  "height": 900,
+  "metrics": {
+    "cpp_map": {
+      "events_per_sec": {
+        "median": 1981440.124129433,
+        "min": 1886956.193638456,
+        "max": 2037772.752276756
+      },
+      "p99_us": {
+        "median": 3.75,
+        "min": 3.6,
+        "max": 4.0
+      }
+    },
+    "cpp_vector": {
+      "events_per_sec": {
+        "median": 2389914.3225776255,
+        "min": 2279710.0788621963,
+        "max": 2510542.1686746986
+      },
+      "p99_us": {
+        "median": 2.9,
+        "min": 2.7,
+        "max": 3.0
+      }
+    },
+    "goose": {
+      "events_per_sec": {
+        "median": 3831108.412375986,
+        "min": 3532902.405425453,
+        "max": 3920354.3291655234
+      },
+      "p99_us": {
+        "median": 1.8,
+        "min": 1.7,
+        "max": 1.9
+      }
+    }
+  },
+  "throughput_vs_optimized_cpp": 1.6030316970710359,
+  "p99_reduction_percent": 37.93103448275862,
+  "measurement_date": "2026-10-28",
+  "matplotlib": "3.11.2",
+  "pandas": "3.0.6"
+}

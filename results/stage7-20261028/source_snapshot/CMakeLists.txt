@@ -1,0 +1,47 @@
+cmake_minimum_required(VERSION 3.27)
+project(bybit_feedguard VERSION 0.1.0 LANGUAGES C CXX)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
+find_package(Boost CONFIG REQUIRED)
+find_package(OpenSSL REQUIRED)
+find_package(simdjson CONFIG REQUIRED)
+find_package(Catch2 3 CONFIG REQUIRED)
+
+add_library(feedguard_config INTERFACE)
+target_include_directories(feedguard_config INTERFACE include)
+target_compile_options(feedguard_config INTERFACE
+    $<$<CXX_COMPILER_ID:GNU,Clang>:-Wall;-Wextra;-Wpedantic>)
+
+add_library(collector_support src/collector/collector_support.cpp)
+target_link_libraries(collector_support PUBLIC feedguard_config simdjson::simdjson)
+add_executable(collector src/collector/main.cpp src/collector/websocket_client.cpp)
+target_link_libraries(collector PRIVATE collector_support Boost::headers OpenSSL::SSL OpenSSL::Crypto)
+target_compile_definitions(collector PRIVATE FEEDGUARD_CA_BUNDLE="${CMAKE_PREFIX_PATH}/etc/ssl/cert.pem")
+if(WIN32)
+    target_link_libraries(collector PRIVATE ws2_32 crypt32)
+endif()
+add_executable(converter src/converter/main.cpp)
+add_library(market_events src/common/event_reader.cpp src/converter/event_converter.cpp)
+target_link_libraries(market_events PUBLIC feedguard_config PRIVATE simdjson::simdjson OpenSSL::Crypto)
+target_link_libraries(converter PRIVATE market_events)
+add_executable(book_cpp src/engines/main.cpp)
+add_library(measurement src/common/measurement.c)
+target_include_directories(measurement PUBLIC include)
+add_library(order_book src/engines/book_map.cpp src/engines/book_vector.cpp
+    src/engines/book_validation.cpp src/engines/replay_json.cpp src/engines/core_benchmark.cpp
+    src/engines/measurement_run.cpp)
+target_link_libraries(order_book PUBLIC market_events measurement)
+target_link_libraries(book_cpp PRIVATE order_book)
+
+include(CTest)
+if(BUILD_TESTING)
+    add_executable(unit_tests tests/test_config.cpp tests/test_collector.cpp tests/test_converter.cpp tests/test_book.cpp)
+    target_compile_definitions(unit_tests PRIVATE FEEDGUARD_FIXTURES="${CMAKE_CURRENT_SOURCE_DIR}/tests/fixtures")
+    target_link_libraries(unit_tests PRIVATE collector_support order_book Catch2::Catch2WithMain OpenSSL::SSL)
+    include(Catch)
+    catch_discover_tests(unit_tests)
+endif()

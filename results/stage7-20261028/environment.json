@@ -1,0 +1,2566 @@
+{
+  "created_utc": "2026-10-27T21:12:54.636640+00:00",
+  "cpu": "12th Gen Intel(R) Core(TM) i7-12650H",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "compiler_version": "clang version 23.1.4 (https://github.com/msys2/MINGW-packages 39c2da431174df09576b662535bdaa688a9bf8e0)\nTarget: x86_64-w64-windows-gnu\nThread model: posix\nInstalledDir: C:/msys64/clang64/bin",
+  "cpp_flags": "-O2 -DNDEBUG",
+  "native_optimization": "-O2",
+  "goose_build_log": "goose runtime 4d3da949e563\nclang version 23.1.4 (https://github.com/msys2/MINGW-packages 39c2da431174df09576b662535bdaa688a9bf8e0)\nTarget: x86_64-w64-windows-gnu\nThread model: posix\nInstalledDir: C:/msys64/clang64/bin\nparsed ok: 208 top-level declarations, 9 file(s)\ntypechecked ok: 177 specialization(s), 7 struct/0 enum instance(s); optimized -O2: 140 inlined, 0 base case(s), 20 folded, 39 propagated, 0 tail loop(s), 0 reassociated\nbce: elided 116/179 index and 8/24 slice checks\nwrote C:/Users/pc/Documents/ChatGPT/goose opt/build/goose-home/build/prog/orderbook-c001c70c/orderbook.c (428585 bytes)\n\"C:\\msys64\\clang64\\bin\\clang.exe\" -O2 \"C:/Users/pc/Documents/ChatGPT/goose opt/build/goose-home/build/prog/orderbook-c001c70c/orderbook.c\" \"C:/Users/pc/Documents/ChatGPT/goose opt/build/goose-home/build/runtime/4d3da949e563/clang-23.1.4-f421dfee-release/goose_runtime.o\" -o goose/orderbook.exe \"@C:/Users/pc/Documents/ChatGPT/goose opt/build/goose-home/build/prog/orderbook-c001c70c/native/clang-23.1.4-f421dfee/link-cc.rsp\"\nbuilt goose/orderbook.exe\n{\"self_tests_passed\":46}\n",
+  "build_log_sha256": "fc623713363adc0a4aa70f8e5acb2416b243c999cd02f108a9dda76f738b389b",
+  "compile_commands": [
+    {
+      "directory": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark",
+      "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DSIMDJSON_THREADS_ENABLED=1 -DSIMDJSON_USING_WINDOWS_DYNAMIC_LIBRARY=1 -I\"C:/Users/pc/Documents/ChatGPT/goose opt/include\" -O2 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -o CMakeFiles\\collector_support.dir\\src\\collector\\collector_support.cpp.obj -c \"C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\src\\collector\\collector_support.cpp\"",
+      "file": "C:/Users/pc/Documents/ChatGPT/goose opt/src/collector/collector_support.cpp",
+      "output": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark/CMakeFiles/collector_support.dir/src/collector/collector_support.cpp.obj"
+    },
+    {
+      "directory": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark",
+      "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DFEEDGUARD_CA_BUNDLE=\\\"C:/msys64/clang64/etc/ssl/cert.pem\\\" -DSIMDJSON_THREADS_ENABLED=1 -DSIMDJSON_USING_WINDOWS_DYNAMIC_LIBRARY=1 -I\"C:/Users/pc/Documents/ChatGPT/goose opt/include\" -O2 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -o CMakeFiles\\collector.dir\\src\\collector\\main.cpp.obj -c \"C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\src\\collector\\main.cpp\"",
+      "file": "C:/Users/pc/Documents/ChatGPT/goose opt/src/collector/main.cpp",
+      "output": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark/CMakeFiles/collector.dir/src/collector/main.cpp.obj"
+    },
+    {
+      "directory": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark",
+      "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DFEEDGUARD_CA_BUNDLE=\\\"C:/msys64/clang64/etc/ssl/cert.pem\\\" -DSIMDJSON_THREADS_ENABLED=1 -DSIMDJSON_USING_WINDOWS_DYNAMIC_LIBRARY=1 -I\"C:/Users/pc/Documents/ChatGPT/goose opt/include\" -O2 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -o CMakeFiles\\collector.dir\\src\\collector\\websocket_client.cpp.obj -c \"C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\src\\collector\\websocket_client.cpp\"",
+      "file": "C:/Users/pc/Documents/ChatGPT/goose opt/src/collector/websocket_client.cpp",
+      "output": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark/CMakeFiles/collector.dir/src/collector/websocket_client.cpp.obj"
+    },
+    {
+      "directory": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark",
+      "command": "C:\\msys64\\clang64\\bin\\clang++.exe -I\"C:/Users/pc/Documents/ChatGPT/goose opt/include\" -O2 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -o CMakeFiles\\converter.dir\\src\\converter\\main.cpp.obj -c \"C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\src\\converter\\main.cpp\"",
+      "file": "C:/Users/pc/Documents/ChatGPT/goose opt/src/converter/main.cpp",
+      "output": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark/CMakeFiles/converter.dir/src/converter/main.cpp.obj"
+    },
+    {
+      "directory": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark",
+      "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DSIMDJSON_THREADS_ENABLED=1 -DSIMDJSON_USING_WINDOWS_DYNAMIC_LIBRARY=1 -I\"C:/Users/pc/Documents/ChatGPT/goose opt/include\" -O2 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -o CMakeFiles\\market_events.dir\\src\\common\\event_reader.cpp.obj -c \"C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\src\\common\\event_reader.cpp\"",
+      "file": "C:/Users/pc/Documents/ChatGPT/goose opt/src/common/event_reader.cpp",
+      "output": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark/CMakeFiles/market_events.dir/src/common/event_reader.cpp.obj"
+    },
+    {
+      "directory": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark",
+      "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DSIMDJSON_THREADS_ENABLED=1 -DSIMDJSON_USING_WINDOWS_DYNAMIC_LIBRARY=1 -I\"C:/Users/pc/Documents/ChatGPT/goose opt/include\" -O2 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -o CMakeFiles\\market_events.dir\\src\\converter\\event_converter.cpp.obj -c \"C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\src\\converter\\event_converter.cpp\"",
+      "file": "C:/Users/pc/Documents/ChatGPT/goose opt/src/converter/event_converter.cpp",
+      "output": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark/CMakeFiles/market_events.dir/src/converter/event_converter.cpp.obj"
+    },
+    {
+      "directory": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark",
+      "command": "C:\\msys64\\clang64\\bin\\clang++.exe -I\"C:/Users/pc/Documents/ChatGPT/goose opt/include\" -O2 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -o CMakeFiles\\book_cpp.dir\\src\\engines\\main.cpp.obj -c \"C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\src\\engines\\main.cpp\"",
+      "file": "C:/Users/pc/Documents/ChatGPT/goose opt/src/engines/main.cpp",
+      "output": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark/CMakeFiles/book_cpp.dir/src/engines/main.cpp.obj"
+    },
+    {
+      "directory": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark",
+      "command": "C:\\msys64\\clang64\\bin\\clang.exe -I\"C:/Users/pc/Documents/ChatGPT/goose opt/include\" -O2 -DNDEBUG -o CMakeFiles\\measurement.dir\\src\\common\\measurement.c.obj -c \"C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\src\\common\\measurement.c\"",
+      "file": "C:/Users/pc/Documents/ChatGPT/goose opt/src/common/measurement.c",
+      "output": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark/CMakeFiles/measurement.dir/src/common/measurement.c.obj"
+    },
+    {
+      "directory": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark",
+      "command": "C:\\msys64\\clang64\\bin\\clang++.exe -I\"C:/Users/pc/Documents/ChatGPT/goose opt/include\" -O2 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -o CMakeFiles\\order_book.dir\\src\\engines\\book_map.cpp.obj -c \"C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\src\\engines\\book_map.cpp\"",
+      "file": "C:/Users/pc/Documents/ChatGPT/goose opt/src/engines/book_map.cpp",
+      "output": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark/CMakeFiles/order_book.dir/src/engines/book_map.cpp.obj"
+    },
+    {
+      "directory": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark",
+      "command": "C:\\msys64\\clang64\\bin\\clang++.exe -I\"C:/Users/pc/Documents/ChatGPT/goose opt/include\" -O2 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -o CMakeFiles\\order_book.dir\\src\\engines\\book_vector.cpp.obj -c \"C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\src\\engines\\book_vector.cpp\"",
+      "file": "C:/Users/pc/Documents/ChatGPT/goose opt/src/engines/book_vector.cpp",
+      "output": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark/CMakeFiles/order_book.dir/src/engines/book_vector.cpp.obj"
+    },
+    {
+      "directory": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark",
+      "command": "C:\\msys64\\clang64\\bin\\clang++.exe -I\"C:/Users/pc/Documents/ChatGPT/goose opt/include\" -O2 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -o CMakeFiles\\order_book.dir\\src\\engines\\book_validation.cpp.obj -c \"C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\src\\engines\\book_validation.cpp\"",
+      "file": "C:/Users/pc/Documents/ChatGPT/goose opt/src/engines/book_validation.cpp",
+      "output": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark/CMakeFiles/order_book.dir/src/engines/book_validation.cpp.obj"
+    },
+    {
+      "directory": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark",
+      "command": "C:\\msys64\\clang64\\bin\\clang++.exe -I\"C:/Users/pc/Documents/ChatGPT/goose opt/include\" -O2 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -o CMakeFiles\\order_book.dir\\src\\engines\\replay_json.cpp.obj -c \"C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\src\\engines\\replay_json.cpp\"",
+      "file": "C:/Users/pc/Documents/ChatGPT/goose opt/src/engines/replay_json.cpp",
+      "output": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark/CMakeFiles/order_book.dir/src/engines/replay_json.cpp.obj"
+    },
+    {
+      "directory": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark",
+      "command": "C:\\msys64\\clang64\\bin\\clang++.exe -I\"C:/Users/pc/Documents/ChatGPT/goose opt/include\" -O2 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -o CMakeFiles\\order_book.dir\\src\\engines\\core_benchmark.cpp.obj -c \"C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\src\\engines\\core_benchmark.cpp\"",
+      "file": "C:/Users/pc/Documents/ChatGPT/goose opt/src/engines/core_benchmark.cpp",
+      "output": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark/CMakeFiles/order_book.dir/src/engines/core_benchmark.cpp.obj"
+    },
+    {
+      "directory": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark",
+      "command": "C:\\msys64\\clang64\\bin\\clang++.exe -I\"C:/Users/pc/Documents/ChatGPT/goose opt/include\" -O2 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -o CMakeFiles\\order_book.dir\\src\\engines\\measurement_run.cpp.obj -c \"C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\src\\engines\\measurement_run.cpp\"",
+      "file": "C:/Users/pc/Documents/ChatGPT/goose opt/src/engines/measurement_run.cpp",
+      "output": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark/CMakeFiles/order_book.dir/src/engines/measurement_run.cpp.obj"
+    },
+    {
+      "directory": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark",
+      "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DFEEDGUARD_FIXTURES=\"\\\"C:/Users/pc/Documents/ChatGPT/goose opt/tests/fixtures\\\"\" -DSIMDJSON_THREADS_ENABLED=1 -DSIMDJSON_USING_WINDOWS_DYNAMIC_LIBRARY=1 -I\"C:/Users/pc/Documents/ChatGPT/goose opt/include\" -O2 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -o CMakeFiles\\unit_tests.dir\\tests\\test_config.cpp.obj -c \"C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\tests\\test_config.cpp\"",
+      "file": "C:/Users/pc/Documents/ChatGPT/goose opt/tests/test_config.cpp",
+      "output": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark/CMakeFiles/unit_tests.dir/tests/test_config.cpp.obj"
+    },
+    {
+      "directory": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark",
+      "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DFEEDGUARD_FIXTURES=\"\\\"C:/Users/pc/Documents/ChatGPT/goose opt/tests/fixtures\\\"\" -DSIMDJSON_THREADS_ENABLED=1 -DSIMDJSON_USING_WINDOWS_DYNAMIC_LIBRARY=1 -I\"C:/Users/pc/Documents/ChatGPT/goose opt/include\" -O2 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -o CMakeFiles\\unit_tests.dir\\tests\\test_collector.cpp.obj -c \"C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\tests\\test_collector.cpp\"",
+      "file": "C:/Users/pc/Documents/ChatGPT/goose opt/tests/test_collector.cpp",
+      "output": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark/CMakeFiles/unit_tests.dir/tests/test_collector.cpp.obj"
+    },
+    {
+      "directory": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark",
+      "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DFEEDGUARD_FIXTURES=\"\\\"C:/Users/pc/Documents/ChatGPT/goose opt/tests/fixtures\\\"\" -DSIMDJSON_THREADS_ENABLED=1 -DSIMDJSON_USING_WINDOWS_DYNAMIC_LIBRARY=1 -I\"C:/Users/pc/Documents/ChatGPT/goose opt/include\" -O2 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -o CMakeFiles\\unit_tests.dir\\tests\\test_converter.cpp.obj -c \"C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\tests\\test_converter.cpp\"",
+      "file": "C:/Users/pc/Documents/ChatGPT/goose opt/tests/test_converter.cpp",
+      "output": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark/CMakeFiles/unit_tests.dir/tests/test_converter.cpp.obj"
+    },
+    {
+      "directory": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark",
+      "command": "C:\\msys64\\clang64\\bin\\clang++.exe -DFEEDGUARD_FIXTURES=\"\\\"C:/Users/pc/Documents/ChatGPT/goose opt/tests/fixtures\\\"\" -DSIMDJSON_THREADS_ENABLED=1 -DSIMDJSON_USING_WINDOWS_DYNAMIC_LIBRARY=1 -I\"C:/Users/pc/Documents/ChatGPT/goose opt/include\" -O2 -DNDEBUG -std=c++20 -Wall -Wextra -Wpedantic -o CMakeFiles\\unit_tests.dir\\tests\\test_book.cpp.obj -c \"C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\tests\\test_book.cpp\"",
+      "file": "C:/Users/pc/Documents/ChatGPT/goose opt/tests/test_book.cpp",
+      "output": "C:/Users/pc/Documents/ChatGPT/goose opt/build/clang-benchmark/CMakeFiles/unit_tests.dir/tests/test_book.cpp.obj"
+    }
+  ],
+  "binary_and_log_hashes": {
+    "C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\build\\clang-benchmark\\book_cpp.exe": "62f695915024eeda86d5a4f193f416458cc67762e726dbbd6b58ed4716c15470",
+    "C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\goose\\orderbook.exe": "0b900faef454994e8a4e0640d27e34df441669a25bd9c89284a0dd48623207d9",
+    "C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\build\\stage7-goose-build.log": "fc623713363adc0a4aa70f8e5acb2416b243c999cd02f108a9dda76f738b389b"
+  },
+  "input_hashes": {
+    "C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\data\\normalized\\events.bin": "58062375a318a015a7032648d978af9edcdc254432a61bead4899612ba2ebe41",
+    "C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\data\\raw\\btcusdt-20261027-linear-x25519.jsonl": "f8bec2387391e0d9e41c5f9bb125bec5022f8ef2697a94cefa6de3571a21c207",
+    "C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\data\\metadata\\btcusdt-linear-20261027.json": "b0f271f2cf3d36acea3ff92a5d2f444b43e5e8c9e648092f3b72bb7ddec63084",
+    "C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\data\\benchmark-stage7\\stress.bin": "2bd46c3fb298dbf397fc25fd5e22ce5839c24f12c5e7ee98e9e2733a7b23d44d",
+    "C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\data\\benchmark-stage7\\stress.jsonl": "ae29226ec81dac758c1047bf49b192e13a2a0470bc8ed30ee8f1f02e1e314155",
+    "C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\tests\\fixtures\\instrument-synthetic.json": "2f89afafbaaac65f2bb1b84a0c81b02c50d5d7d9a2c889d1fb7ca454bc982cf6"
+  },
+  "source_hashes": {
+    "benchmark/core_compare.py": "5100f7aed990f908f47079a2ec018f66f716db28d1bba51448aa327d05ac225e",
+    "benchmark/live_report.py": "8f8b9b217b59ddd09807f9675f90f1e1a4b8eb5a52c89d25ee8814fdaacc8845",
+    "benchmark/prepare_datasets.py": "3a923b34bafda0a17295536a1be5d99eb5c5ae6263e4cd5ecc5463afcd2f0525",
+    "benchmark/run_benchmark.py": "ba3e88e98868069ff28772c0980f85c098842ba5c0efbb4cab7fb132f6179c23",
+    "benchmark/statistics_tools.py": "3319e9665dba769d974e0e5bd401c91a523518c02571bc97fc819695daf76f57",
+    "CMakeLists.txt": "8dcb55852cd0d58a56504f041ab5eaff184e51f4f4f884555c1c4608356f4c91",
+    "CMakePresets.json": "172e6e6092ff43ab1ecb7a7d24a8f5cfa72ed9b8372a020291a0077592e65264",
+    "goose/book.goose": "6a5cd6e45cc5f67a74fabe4be65755dfe508e02d7cff094df24e67fc7e0a4061",
+    "goose/event_reader.goose": "08783d72bc303ecfca35a0b1bc696df394a5255710bfd5e1805d417322bf17a3",
+    "goose/hello.goose": "c1dccf0067f625f9c439f2d97666d9a31f14520c1537091c4950cdeb9a37c1ae",
+    "goose/measurement.goose": "d853845d25c12adfe50bc8cea6aefc8f295fa51527c8292a4a5d15d6abe36a2f",
+    "goose/model.goose": "198ef437165fe631cb86b2b4198f9afe8d7e96f71b285b56f3a152125c3807ed",
+    "goose/orderbook.build": "385c0b12210fd176202894525c134e03b969f43a0e8c5fd6fe716ff58000f5e5",
+    "goose/orderbook.goose": "f1f79b41322e1eb90e5e68d9bf50098830e44b62ef600a85c3ee3373f9cc68e4",
+    "goose/self_tests.goose": "fe980ec3e7acb45b6f5507a705dca71777884fab487b21e5ec861bd66469b7f7",
+    "include/collector.hpp": "27900e203b564cdddfba4e0626bd06c33a2c472308b7c7bf79d0c93d51e5ae24",
+    "include/feedguard_config.hpp": "7036411415332d248c7ed5db7defd95a62f1ba16a10a4144d0b1502582d3eb48",
+    "include/goose_measurement_mode.h": "41bad3a2efbf8cdf1b2d08ccffe9732c8c9f6b4aa3ee40eb14516da026310d02",
+    "include/market_event.hpp": "650516ee60764441943e8d1d9b88bcdc6bcdc6b670f52f1090859fc2940de954",
+    "include/measurement.h": "097b2016a9641eed0e35dd5c9fd37842ca540ea96d2d4ebb7fda208b5c4c185c",
+    "include/order_book.hpp": "eb7b87113d961cb78ddb2eb5ce820dce596e287c8cc704babbed4366fac24577",
+    "src/collector/collector_support.cpp": "526e6e49acf83ee1fac20817f4e2b8cf15cd83e510739fc82f4fdec4482f5c8b",
+    "src/collector/main.cpp": "5e6d4cedcffeee1c007a5739fe9701446d31044cdcf6618ba2bee2929c27f81f",
+    "src/collector/websocket_client.cpp": "a013798cadb63ac8632ca56f5d0cccfa2bced56c1906c866abda19c3a7ef6aea",
+    "src/common/event_reader.cpp": "306dceb36bcae5e58f757c3d8a3c4006ba84d47524e259becef1ac505aee17df",
+    "src/common/measurement.c": "668e2612606817db1ff7a5c18c7df84f815e48fc3eab29192ddecaba039948b3",
+    "src/converter/event_converter.cpp": "e087d5abd670add8d7b0847fe491ae3605bd81fdcea98cc2624389788423d5b6",
+    "src/converter/main.cpp": "7ee5ae8cfaaeebf143c0ef58fcc4f6bf1c69ae248ca359156d1de96ba75b14fb",
+    "src/engines/book_map.cpp": "8f2b5f2c98d2d9816f434ec467ecdb0b4208d66d05f75fd3ff24b52ee35fb93c",
+    "src/engines/book_validation.cpp": "1dd4c3b6b8ccb68f875e5bcb207a4e24cf70681baf52ba7cd4290581233b8a64",
+    "src/engines/book_vector.cpp": "56d2039dbe8de82d5406c253de576855d45fe85e9d222af25e68de0b3ff627fa",
+    "src/engines/core_benchmark.cpp": "645b5ebaaa65df8546d98559de614375ca3644348f84e24e3717f39b8d65afd8",
+    "src/engines/main.cpp": "b3312b6808296dec08765776d98a5050df8bf0aa631a63ffc0905446f4ddfe0c",
+    "src/engines/measurement_run.cpp": "1f90bcfda54bf193608f88e8913d6c99f1677ceb7192938fdb49e25b16e7baf4",
+    "src/engines/replay_json.cpp": "de4dd83e9c5ddc22d49aed3e6611a816843f627f0a3b5b81b1f884fb6f01372b"
+  },
+  "datasets": [
+    {
+      "name": "real",
+      "kind": "recorded_bybit",
+      "binary": "C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\data\\normalized\\events.bin",
+      "capture": "C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\data\\raw\\btcusdt-20261027-linear-x25519.jsonl",
+      "metadata": "C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\data\\metadata\\btcusdt-linear-20261027.json",
+      "sha256": "58062375a318a015a7032648d978af9edcdc254432a61bead4899612ba2ebe41",
+      "capture_sha256": "f8bec2387391e0d9e41c5f9bb125bec5022f8ef2697a94cefa6de3571a21c207"
+    },
+    {
+      "name": "synthetic",
+      "kind": "artificial_stress",
+      "binary": "C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\data\\benchmark-stage7\\stress.bin",
+      "capture": "C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\data\\benchmark-stage7\\stress.jsonl",
+      "metadata": "C:\\Users\\pc\\Documents\\ChatGPT\\goose opt\\tests\\fixtures\\instrument-synthetic.json",
+      "sha256": "2bd46c3fb298dbf397fc25fd5e22ce5839c24f12c5e7ee98e9e2733a7b23d44d",
+      "capture_sha256": "ae29226ec81dac758c1047bf49b192e13a2a0470bc8ed30ee8f1f02e1e314155"
+    }
+  ],
+  "verification_replays": {
+    "real": {
+      "cpp_map": {
+        "schema": 1,
+        "engine": "cpp_map",
+        "mode": "verify_replay",
+        "events": 10002,
+        "market_events": 10000,
+        "resets": 2,
+        "price_decimals": 1,
+        "quantity_decimals": 3,
+        "checksum": "e898d48c8118d4d9",
+        "history_checksum": "133ad3f85b1d7b87",
+        "current": {
+          "valid": false,
+          "session": 1,
+          "u": 0,
+          "seq": 0,
+          "checksum": "e898d48c8118d4d9",
+          "best_bid": null,
+          "best_ask": null,
+          "spread": null,
+          "bids": [],
+          "asks": []
+        },
+        "last_valid_before_reset": {
+          "valid": true,
+          "session": 1,
+          "u": 42927073,
+          "seq": 833683244427,
+          "checksum": "a8bea05ec3dc51c7",
+          "best_bid": [
+            806082,
+            8075
+          ],
+          "best_ask": [
+            806083,
+            871
+          ],
+          "spread": 1,
+          "bids": [
+            [
+              806082,
+              8075
+            ],
+            [
+              806081,
+              2
+            ],
+            [
+              806076,
+              365
+            ],
+            [
+              806075,
+              1
+            ],
+            [
+              806074,
+              2
+            ],
+            [
+              806069,
+              1
+            ],
+            [
+              806066,
+              3
+            ],
+            [
+              806065,
+              1
+            ],
+            [
+              806062,
+              100
+            ],
+            [
+              806061,
+              130
+            ],
+            [
+              806060,
+              102
+            ],
+            [
+              806051,
+              4
+            ],
+            [
+              806050,
+              24
+            ],
+            [
+              806046,
+              1
+            ],
+            [
+              806042,
+              2
+            ],
+            [
+              806041,
+              135
+            ],
+            [
+              806040,
+              725
+            ],
+            [
+              806039,
+              745
+            ],
+            [
+              806035,
+              2
+            ],
+            [
+              806033,
+              100
+            ],
+            [
+              806032,
+              1459
+            ],
+            [
+              806031,
+              100
+            ],
+            [
+              806030,
+              23
+            ],
+            [
+              806029,
+              2
+            ],
+            [
+              806028,
+              2
+            ],
+            [
+              806025,
+              2
+            ],
+            [
+              806024,
+              1700
+            ],
+            [
+              806023,
+              1
+            ],
+            [
+              806022,
+              1176
+            ],
+            [
+              806021,
+              1
+            ],
+            [
+              806020,
+              23
+            ],
+            [
+              806017,
+              62
+            ],
+            [
+              806011,
+              1
+            ],
+            [
+              806010,
+              2
+            ],
+            [
+              806008,
+              127
+            ],
+            [
+              806007,
+              114
+            ],
+            [
+              806003,
+              100
+            ],
+            [
+              806002,
+              4
+            ],
+            [
+              806001,
+              3452
+            ],
+            [
+              806000,
+              2923
+            ],
+            [
+              805999,
+              19
+            ],
+            [
+              805997,
+              1503
+            ],
+            [
+              805995,
+              6
+            ],
+            [
+              805994,
+              1
+            ],
+            [
+              805991,
+              252
+            ],
+            [
+              805990,
+              3
+            ],
+            [
+              805986,
+              2
+            ],
+            [
+              805985,
+              1
+            ],
+            [
+              805983,
+              190
+            ],
+            [
+              805982,
+              2
+            ]
+          ],
+          "asks": [
+            [
+              806083,
+              871
+            ],
+            [
+              806084,
+              2
+            ],
+            [
+              806086,
+              1
+            ],
+            [
+              806097,
+              2
+            ],
+            [
+              806098,
+              1
+            ],
+            [
+              806100,
+              1
+            ],
+            [
+              806101,
+              7
+            ],
+            [
+              806105,
+              2
+            ],
+            [
+              806106,
+              1
+            ],
+            [
+              806107,
+              1
+            ],
+            [
+              806113,
+              2
+            ],
+            [
+              806115,
+              9
+            ],
+            [
+              806118,
+              1
+            ],
+            [
+              806123,
+              1
+            ],
+            [
+              806125,
+              1
+            ],
+            [
+              806134,
+              1
+            ],
+            [
+              806136,
+              3
+            ],
+            [
+              806137,
+              1240
+            ],
+            [
+              806138,
+              2061
+            ],
+            [
+              806140,
+              101
+            ],
+            [
+              806146,
+              2
+            ],
+            [
+              806148,
+              76
+            ],
+            [
+              806150,
+              2
+            ],
+            [
+              806153,
+              3
+            ],
+            [
+              806154,
+              133
+            ],
+            [
+              806155,
+              1
+            ],
+            [
+              806158,
+              31
+            ],
+            [
+              806159,
+              495
+            ],
+            [
+              806160,
+              7
+            ],
+            [
+              806161,
+              1
+            ],
+            [
+              806162,
+              376
+            ],
+            [
+              806163,
+              198
+            ],
+            [
+              806164,
+              1
+            ],
+            [
+              806167,
+              17
+            ],
+            [
+              806168,
+              76
+            ],
+            [
+              806170,
+              7
+            ],
+            [
+              806171,
+              7
+            ],
+            [
+              806172,
+              2
+            ],
+            [
+              806173,
+              1
+            ],
+            [
+              806175,
+              2
+            ],
+            [
+              806177,
+              139
+            ],
+            [
+              806178,
+              1
+            ],
+            [
+              806180,
+              2
+            ],
+            [
+              806183,
+              5
+            ],
+            [
+              806184,
+              50
+            ],
+            [
+              806185,
+              3
+            ],
+            [
+              806186,
+              18
+            ],
+            [
+              806187,
+              79
+            ],
+            [
+              806188,
+              469
+            ],
+            [
+              806189,
+              5
+            ]
+          ]
+        }
+      },
+      "cpp_vector": {
+        "schema": 1,
+        "engine": "cpp_vector",
+        "mode": "verify_replay",
+        "events": 10002,
+        "market_events": 10000,
+        "resets": 2,
+        "price_decimals": 1,
+        "quantity_decimals": 3,
+        "checksum": "e898d48c8118d4d9",
+        "history_checksum": "133ad3f85b1d7b87",
+        "current": {
+          "valid": false,
+          "session": 1,
+          "u": 0,
+          "seq": 0,
+          "checksum": "e898d48c8118d4d9",
+          "best_bid": null,
+          "best_ask": null,
+          "spread": null,
+          "bids": [],
+          "asks": []
+        },
+        "last_valid_before_reset": {
+          "valid": true,
+          "session": 1,
+          "u": 42927073,
+          "seq": 833683244427,
+          "checksum": "a8bea05ec3dc51c7",
+          "best_bid": [
+            806082,
+            8075
+          ],
+          "best_ask": [
+            806083,
+            871
+          ],
+          "spread": 1,
+          "bids": [
+            [
+              806082,
+              8075
+            ],
+            [
+              806081,
+              2
+            ],
+            [
+              806076,
+              365
+            ],
+            [
+              806075,
+              1
+            ],
+            [
+              806074,
+              2
+            ],
+            [
+              806069,
+              1
+            ],
+            [
+              806066,
+              3
+            ],
+            [
+              806065,
+              1
+            ],
+            [
+              806062,
+              100
+            ],
+            [
+              806061,
+              130
+            ],
+            [
+              806060,
+              102
+            ],
+            [
+              806051,
+              4
+            ],
+            [
+              806050,
+              24
+            ],
+            [
+              806046,
+              1
+            ],
+            [
+              806042,
+              2
+            ],
+            [
+              806041,
+              135
+            ],
+            [
+              806040,
+              725
+            ],
+            [
+              806039,
+              745
+            ],
+            [
+              806035,
+              2
+            ],
+            [
+              806033,
+              100
+            ],
+            [
+              806032,
+              1459
+            ],
+            [
+              806031,
+              100
+            ],
+            [
+              806030,
+              23
+            ],
+            [
+              806029,
+              2
+            ],
+            [
+              806028,
+              2
+            ],
+            [
+              806025,
+              2
+            ],
+            [
+              806024,
+              1700
+            ],
+            [
+              806023,
+              1
+            ],
+            [
+              806022,
+              1176
+            ],
+            [
+              806021,
+              1
+            ],
+            [
+              806020,
+              23
+            ],
+            [
+              806017,
+              62
+            ],
+            [
+              806011,
+              1
+            ],
+            [
+              806010,
+              2
+            ],
+            [
+              806008,
+              127
+            ],
+            [
+              806007,
+              114
+            ],
+            [
+              806003,
+              100
+            ],
+            [
+              806002,
+              4
+            ],
+            [
+              806001,
+              3452
+            ],
+            [
+              806000,
+              2923
+            ],
+            [
+              805999,
+              19
+            ],
+            [
+              805997,
+              1503
+            ],
+            [
+              805995,
+              6
+            ],
+            [
+              805994,
+              1
+            ],
+            [
+              805991,
+              252
+            ],
+            [
+              805990,
+              3
+            ],
+            [
+              805986,
+              2
+            ],
+            [
+              805985,
+              1
+            ],
+            [
+              805983,
+              190
+            ],
+            [
+              805982,
+              2
+            ]
+          ],
+          "asks": [
+            [
+              806083,
+              871
+            ],
+            [
+              806084,
+              2
+            ],
+            [
+              806086,
+              1
+            ],
+            [
+              806097,
+              2
+            ],
+            [
+              806098,
+              1
+            ],
+            [
+              806100,
+              1
+            ],
+            [
+              806101,
+              7
+            ],
+            [
+              806105,
+              2
+            ],
+            [
+              806106,
+              1
+            ],
+            [
+              806107,
+              1
+            ],
+            [
+              806113,
+              2
+            ],
+            [
+              806115,
+              9
+            ],
+            [
+              806118,
+              1
+            ],
+            [
+              806123,
+              1
+            ],
+            [
+              806125,
+              1
+            ],
+            [
+              806134,
+              1
+            ],
+            [
+              806136,
+              3
+            ],
+            [
+              806137,
+              1240
+            ],
+            [
+              806138,
+              2061
+            ],
+            [
+              806140,
+              101
+            ],
+            [
+              806146,
+              2
+            ],
+            [
+              806148,
+              76
+            ],
+            [
+              806150,
+              2
+            ],
+            [
+              806153,
+              3
+            ],
+            [
+              806154,
+              133
+            ],
+            [
+              806155,
+              1
+            ],
+            [
+              806158,
+              31
+            ],
+            [
+              806159,
+              495
+            ],
+            [
+              806160,
+              7
+            ],
+            [
+              806161,
+              1
+            ],
+            [
+              806162,
+              376
+            ],
+            [
+              806163,
+              198
+            ],
+            [
+              806164,
+              1
+            ],
+            [
+              806167,
+              17
+            ],
+            [
+              806168,
+              76
+            ],
+            [
+              806170,
+              7
+            ],
+            [
+              806171,
+              7
+            ],
+            [
+              806172,
+              2
+            ],
+            [
+              806173,
+              1
+            ],
+            [
+              806175,
+              2
+            ],
+            [
+              806177,
+              139
+            ],
+            [
+              806178,
+              1
+            ],
+            [
+              806180,
+              2
+            ],
+            [
+              806183,
+              5
+            ],
+            [
+              806184,
+              50
+            ],
+            [
+              806185,
+              3
+            ],
+            [
+              806186,
+              18
+            ],
+            [
+              806187,
+              79
+            ],
+            [
+              806188,
+              469
+            ],
+            [
+              806189,
+              5
+            ]
+          ]
+        }
+      },
+      "goose": {
+        "schema": 1,
+        "engine": "goose",
+        "mode": "verify_replay",
+        "events": 10002,
+        "market_events": 10000,
+        "resets": 2,
+        "price_decimals": 1,
+        "quantity_decimals": 3,
+        "checksum": "e898d48c8118d4d9",
+        "history_checksum": "133ad3f85b1d7b87",
+        "current": {
+          "valid": false,
+          "session": 1,
+          "u": 0,
+          "seq": 0,
+          "checksum": "e898d48c8118d4d9",
+          "best_bid": null,
+          "best_ask": null,
+          "spread": null,
+          "bids": [],
+          "asks": []
+        },
+        "last_valid_before_reset": {
+          "valid": true,
+          "session": 1,
+          "u": 42927073,
+          "seq": 833683244427,
+          "checksum": "a8bea05ec3dc51c7",
+          "best_bid": [
+            806082,
+            8075
+          ],
+          "best_ask": [
+            806083,
+            871
+          ],
+          "spread": 1,
+          "bids": [
+            [
+              806082,
+              8075
+            ],
+            [
+              806081,
+              2
+            ],
+            [
+              806076,
+              365
+            ],
+            [
+              806075,
+              1
+            ],
+            [
+              806074,
+              2
+            ],
+            [
+              806069,
+              1
+            ],
+            [
+              806066,
+              3
+            ],
+            [
+              806065,
+              1
+            ],
+            [
+              806062,
+              100
+            ],
+            [
+              806061,
+              130
+            ],
+            [
+              806060,
+              102
+            ],
+            [
+              806051,
+              4
+            ],
+            [
+              806050,
+              24
+            ],
+            [
+              806046,
+              1
+            ],
+            [
+              806042,
+              2
+            ],
+            [
+              806041,
+              135
+            ],
+            [
+              806040,
+              725
+            ],
+            [
+              806039,
+              745
+            ],
+            [
+              806035,
+              2
+            ],
+            [
+              806033,
+              100
+            ],
+            [
+              806032,
+              1459
+            ],
+            [
+              806031,
+              100
+            ],
+            [
+              806030,
+              23
+            ],
+            [
+              806029,
+              2
+            ],
+            [
+              806028,
+              2
+            ],
+            [
+              806025,
+              2
+            ],
+            [
+              806024,
+              1700
+            ],
+            [
+              806023,
+              1
+            ],
+            [
+              806022,
+              1176
+            ],
+            [
+              806021,
+              1
+            ],
+            [
+              806020,
+              23
+            ],
+            [
+              806017,
+              62
+            ],
+            [
+              806011,
+              1
+            ],
+            [
+              806010,
+              2
+            ],
+            [
+              806008,
+              127
+            ],
+            [
+              806007,
+              114
+            ],
+            [
+              806003,
+              100
+            ],
+            [
+              806002,
+              4
+            ],
+            [
+              806001,
+              3452
+            ],
+            [
+              806000,
+              2923
+            ],
+            [
+              805999,
+              19
+            ],
+            [
+              805997,
+              1503
+            ],
+            [
+              805995,
+              6
+            ],
+            [
+              805994,
+              1
+            ],
+            [
+              805991,
+              252
+            ],
+            [
+              805990,
+              3
+            ],
+            [
+              805986,
+              2
+            ],
+            [
+              805985,
+              1
+            ],
+            [
+              805983,
+              190
+            ],
+            [
+              805982,
+              2
+            ]
+          ],
+          "asks": [
+            [
+              806083,
+              871
+            ],
+            [
+              806084,
+              2
+            ],
+            [
+              806086,
+              1
+            ],
+            [
+              806097,
+              2
+            ],
+            [
+              806098,
+              1
+            ],
+            [
+              806100,
+              1
+            ],
+            [
+              806101,
+              7
+            ],
+            [
+              806105,
+              2
+            ],
+            [
+              806106,
+              1
+            ],
+            [
+              806107,
+              1
+            ],
+            [
+              806113,
+              2
+            ],
+            [
+              806115,
+              9
+            ],
+            [
+              806118,
+              1
+            ],
+            [
+              806123,
+              1
+            ],
+            [
+              806125,
+              1
+            ],
+            [
+              806134,
+              1
+            ],
+            [
+              806136,
+              3
+            ],
+            [
+              806137,
+              1240
+            ],
+            [
+              806138,
+              2061
+            ],
+            [
+              806140,
+              101
+            ],
+            [
+              806146,
+              2
+            ],
+            [
+              806148,
+              76
+            ],
+            [
+              806150,
+              2
+            ],
+            [
+              806153,
+              3
+            ],
+            [
+              806154,
+              133
+            ],
+            [
+              806155,
+              1
+            ],
+            [
+              806158,
+              31
+            ],
+            [
+              806159,
+              495
+            ],
+            [
+              806160,
+              7
+            ],
+            [
+              806161,
+              1
+            ],
+            [
+              806162,
+              376
+            ],
+            [
+              806163,
+              198
+            ],
+            [
+              806164,
+              1
+            ],
+            [
+              806167,
+              17
+            ],
+            [
+              806168,
+              76
+            ],
+            [
+              806170,
+              7
+            ],
+            [
+              806171,
+              7
+            ],
+            [
+              806172,
+              2
+            ],
+            [
+              806173,
+              1
+            ],
+            [
+              806175,
+              2
+            ],
+            [
+              806177,
+              139
+            ],
+            [
+              806178,
+              1
+            ],
+            [
+              806180,
+              2
+            ],
+            [
+              806183,
+              5
+            ],
+            [
+              806184,
+              50
+            ],
+            [
+              806185,
+              3
+            ],
+            [
+              806186,
+              18
+            ],
+            [
+              806187,
+              79
+            ],
+            [
+              806188,
+              469
+            ],
+            [
+              806189,
+              5
+            ]
+          ]
+        }
+      }
+    },
+    "synthetic": {
+      "cpp_map": {
+        "schema": 1,
+        "engine": "cpp_map",
+        "mode": "verify_replay",
+        "events": 100100,
+        "market_events": 99900,
+        "resets": 200,
+        "price_decimals": 1,
+        "quantity_decimals": 3,
+        "checksum": "25d3faf82ecb64f9",
+        "history_checksum": "de7008f1f85dabd9",
+        "current": {
+          "valid": false,
+          "session": 100,
+          "u": 0,
+          "seq": 0,
+          "checksum": "25d3faf82ecb64f9",
+          "best_bid": null,
+          "best_ask": null,
+          "spread": null,
+          "bids": [],
+          "asks": []
+        },
+        "last_valid_before_reset": {
+          "valid": true,
+          "session": 100,
+          "u": 100001,
+          "seq": 1699983,
+          "checksum": "25d477da89c52b6f",
+          "best_bid": [
+            10000,
+            18
+          ],
+          "best_ask": [
+            11000,
+            10
+          ],
+          "spread": 1000,
+          "bids": [
+            [
+              10000,
+              18
+            ],
+            [
+              9995,
+              20
+            ],
+            [
+              9990,
+              22
+            ],
+            [
+              9985,
+              24
+            ],
+            [
+              9975,
+              2
+            ],
+            [
+              9970,
+              4
+            ],
+            [
+              9965,
+              6
+            ]
+          ],
+          "asks": [
+            [
+              11000,
+              10
+            ],
+            [
+              11005,
+              2
+            ],
+            [
+              11015,
+              20
+            ],
+            [
+              11020,
+              18
+            ],
+            [
+              11025,
+              16
+            ],
+            [
+              11030,
+              14
+            ],
+            [
+              11035,
+              12
+            ]
+          ]
+        }
+      },
+      "cpp_vector": {
+        "schema": 1,
+        "engine": "cpp_vector",
+        "mode": "verify_replay",
+        "events": 100100,
+        "market_events": 99900,
+        "resets": 200,
+        "price_decimals": 1,
+        "quantity_decimals": 3,
+        "checksum": "25d3faf82ecb64f9",
+        "history_checksum": "de7008f1f85dabd9",
+        "current": {
+          "valid": false,
+          "session": 100,
+          "u": 0,
+          "seq": 0,
+          "checksum": "25d3faf82ecb64f9",
+          "best_bid": null,
+          "best_ask": null,
+          "spread": null,
+          "bids": [],
+          "asks": []
+        },
+        "last_valid_before_reset": {
+          "valid": true,
+          "session": 100,
+          "u": 100001,
+          "seq": 1699983,
+          "checksum": "25d477da89c52b6f",
+          "best_bid": [
+            10000,
+            18
+          ],
+          "best_ask": [
+            11000,
+            10
+          ],
+          "spread": 1000,
+          "bids": [
+            [
+              10000,
+              18
+            ],
+            [
+              9995,
+              20
+            ],
+            [
+              9990,
+              22
+            ],
+            [
+              9985,
+              24
+            ],
+            [
+              9975,
+              2
+            ],
+            [
+              9970,
+              4
+            ],
+            [
+              9965,
+              6
+            ]
+          ],
+          "asks": [
+            [
+              11000,
+              10
+            ],
+            [
+              11005,
+              2
+            ],
+            [
+              11015,
+              20
+            ],
+            [
+              11020,
+              18
+            ],
+            [
+              11025,
+              16
+            ],
+            [
+              11030,
+              14
+            ],
+            [
+              11035,
+              12
+            ]
+          ]
+        }
+      },
+      "goose": {
+        "schema": 1,
+        "engine": "goose",
+        "mode": "verify_replay",
+        "events": 100100,
+        "market_events": 99900,
+        "resets": 200,
+        "price_decimals": 1,
+        "quantity_decimals": 3,
+        "checksum": "25d3faf82ecb64f9",
+        "history_checksum": "de7008f1f85dabd9",
+        "current": {
+          "valid": false,
+          "session": 100,
+          "u": 0,
+          "seq": 0,
+          "checksum": "25d3faf82ecb64f9",
+          "best_bid": null,
+          "best_ask": null,
+          "spread": null,
+          "bids": [],
+          "asks": []
+        },
+        "last_valid_before_reset": {
+          "valid": true,
+          "session": 100,
+          "u": 100001,
+          "seq": 1699983,
+          "checksum": "25d477da89c52b6f",
+          "best_bid": [
+            10000,
+            18
+          ],
+          "best_ask": [
+            11000,
+            10
+          ],
+          "spread": 1000,
+          "bids": [
+            [
+              10000,
+              18
+            ],
+            [
+              9995,
+              20
+            ],
+            [
+              9990,
+              22
+            ],
+            [
+              9985,
+              24
+            ],
+            [
+              9975,
+              2
+            ],
+            [
+              9970,
+              4
+            ],
+            [
+              9965,
+              6
+            ]
+          ],
+          "asks": [
+            [
+              11000,
+              10
+            ],
+            [
+              11005,
+              2
+            ],
+            [
+              11015,
+              20
+            ],
+            [
+              11020,
+              18
+            ],
+            [
+              11025,
+              16
+            ],
+            [
+              11030,
+              14
+            ],
+            [
+              11035,
+              12
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "run_order": [
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "cpp_map",
+      "run": 1
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "cpp_vector",
+      "run": 1
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "goose",
+      "run": 1
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "cpp_vector",
+      "run": 1
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "goose",
+      "run": 1
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "cpp_map",
+      "run": 1
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "cpp_map",
+      "run": 2
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "goose",
+      "run": 2
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "cpp_vector",
+      "run": 2
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "cpp_vector",
+      "run": 2
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "cpp_map",
+      "run": 2
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "goose",
+      "run": 2
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "goose",
+      "run": 3
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "cpp_map",
+      "run": 3
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "cpp_vector",
+      "run": 3
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "cpp_map",
+      "run": 3
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "cpp_vector",
+      "run": 3
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "goose",
+      "run": 3
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "goose",
+      "run": 4
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "cpp_vector",
+      "run": 4
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "cpp_map",
+      "run": 4
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "cpp_map",
+      "run": 4
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "goose",
+      "run": 4
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "cpp_vector",
+      "run": 4
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "cpp_vector",
+      "run": 5
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "goose",
+      "run": 5
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "cpp_map",
+      "run": 5
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "goose",
+      "run": 5
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "cpp_map",
+      "run": 5
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "cpp_vector",
+      "run": 5
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "cpp_vector",
+      "run": 6
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "cpp_map",
+      "run": 6
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "goose",
+      "run": 6
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "goose",
+      "run": 6
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "cpp_vector",
+      "run": 6
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "cpp_map",
+      "run": 6
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "cpp_map",
+      "run": 7
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "cpp_vector",
+      "run": 7
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "goose",
+      "run": 7
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "cpp_vector",
+      "run": 7
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "goose",
+      "run": 7
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "cpp_map",
+      "run": 7
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "cpp_map",
+      "run": 8
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "goose",
+      "run": 8
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "cpp_vector",
+      "run": 8
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "cpp_vector",
+      "run": 8
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "cpp_map",
+      "run": 8
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "goose",
+      "run": 8
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "goose",
+      "run": 9
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "cpp_map",
+      "run": 9
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "cpp_vector",
+      "run": 9
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "cpp_map",
+      "run": 9
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "cpp_vector",
+      "run": 9
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "goose",
+      "run": 9
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "goose",
+      "run": 10
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "cpp_vector",
+      "run": 10
+    },
+    {
+      "dataset": "real",
+      "mode": "offline",
+      "engine": "cpp_map",
+      "run": 10
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "cpp_map",
+      "run": 10
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "goose",
+      "run": 10
+    },
+    {
+      "dataset": "real",
+      "mode": "core",
+      "engine": "cpp_vector",
+      "run": 10
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "cpp_vector",
+      "run": 1
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "goose",
+      "run": 1
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "cpp_map",
+      "run": 1
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "goose",
+      "run": 1
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "cpp_map",
+      "run": 1
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "cpp_vector",
+      "run": 1
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "cpp_vector",
+      "run": 2
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "cpp_map",
+      "run": 2
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "goose",
+      "run": 2
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "goose",
+      "run": 2
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "cpp_vector",
+      "run": 2
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "cpp_map",
+      "run": 2
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "cpp_map",
+      "run": 3
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "cpp_vector",
+      "run": 3
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "goose",
+      "run": 3
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "cpp_vector",
+      "run": 3
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "goose",
+      "run": 3
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "cpp_map",
+      "run": 3
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "cpp_map",
+      "run": 4
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "goose",
+      "run": 4
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "cpp_vector",
+      "run": 4
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "cpp_vector",
+      "run": 4
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "cpp_map",
+      "run": 4
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "goose",
+      "run": 4
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "goose",
+      "run": 5
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "cpp_map",
+      "run": 5
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "cpp_vector",
+      "run": 5
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "cpp_map",
+      "run": 5
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "cpp_vector",
+      "run": 5
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "goose",
+      "run": 5
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "goose",
+      "run": 6
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "cpp_vector",
+      "run": 6
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "cpp_map",
+      "run": 6
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "cpp_map",
+      "run": 6
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "goose",
+      "run": 6
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "cpp_vector",
+      "run": 6
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "cpp_vector",
+      "run": 7
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "goose",
+      "run": 7
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "cpp_map",
+      "run": 7
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "goose",
+      "run": 7
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "cpp_map",
+      "run": 7
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "cpp_vector",
+      "run": 7
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "cpp_vector",
+      "run": 8
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "cpp_map",
+      "run": 8
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "goose",
+      "run": 8
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "goose",
+      "run": 8
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "cpp_vector",
+      "run": 8
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "cpp_map",
+      "run": 8
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "cpp_map",
+      "run": 9
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "cpp_vector",
+      "run": 9
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "goose",
+      "run": 9
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "cpp_vector",
+      "run": 9
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "goose",
+      "run": 9
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "cpp_map",
+      "run": 9
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "cpp_map",
+      "run": 10
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "goose",
+      "run": 10
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "offline",
+      "engine": "cpp_vector",
+      "run": 10
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "cpp_vector",
+      "run": 10
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "cpp_map",
+      "run": 10
+    },
+    {
+      "dataset": "synthetic",
+      "mode": "core",
+      "engine": "goose",
+      "run": 10
+    }
+  ],
+  "git_commit": null,
+  "working_tree_dirty": true,
+  "measured_runs": 10,
+  "warmup_runs_per_engine_mode_dataset": 1,
+  "clock_frequency_hz": 10000000,
+  "clock": "shared native Windows QPC, integer nanoseconds",
+  "memory": "whole-process PeakWorkingSetSize, decimal MB; throughput process only",
+  "latency_scope": "core apply including validation/reset, separate instrumented process",
+  "quantiles": "nearest rank, per run; raw samples include timer overhead, no subtraction",
+  "offline_percentiles": null,
+  "offline_cache": "warm OS file cache after warmup, not cold-disk bandwidth",
+  "repeat_per_process": 1,
+  "event_denominator": "all records including resets",
+  "affinity_and_power_policy": "not changed",
+  "background_processes": "not controlled"
+}

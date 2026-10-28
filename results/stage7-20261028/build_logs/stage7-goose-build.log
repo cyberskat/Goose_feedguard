@@ -1,0 +1,12 @@
+goose runtime 4d3da949e563
+clang version 23.1.4 (https://github.com/msys2/MINGW-packages 39c2da431174df09576b662535bdaa688a9bf8e0)
+Target: x86_64-w64-windows-gnu
+Thread model: posix
+InstalledDir: C:/msys64/clang64/bin
+parsed ok: 208 top-level declarations, 9 file(s)
+typechecked ok: 177 specialization(s), 7 struct/0 enum instance(s); optimized -O2: 140 inlined, 0 base case(s), 20 folded, 39 propagated, 0 tail loop(s), 0 reassociated
+bce: elided 116/179 index and 8/24 slice checks
+wrote C:/Users/pc/Documents/ChatGPT/goose opt/build/goose-home/build/prog/orderbook-c001c70c/orderbook.c (428585 bytes)
+"C:\msys64\clang64\bin\clang.exe" -O2 "C:/Users/pc/Documents/ChatGPT/goose opt/build/goose-home/build/prog/orderbook-c001c70c/orderbook.c" "C:/Users/pc/Documents/ChatGPT/goose opt/build/goose-home/build/runtime/4d3da949e563/clang-23.1.4-f421dfee-release/goose_runtime.o" -o goose/orderbook.exe "@C:/Users/pc/Documents/ChatGPT/goose opt/build/goose-home/build/prog/orderbook-c001c70c/native/clang-23.1.4-f421dfee/link-cc.rsp"
+built goose/orderbook.exe
+{"self_tests_passed":46}

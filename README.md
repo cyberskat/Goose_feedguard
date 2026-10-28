@@ -72,4 +72,4 @@ The output directory must be new. This runs core and offline measurements on rec
 
 The recorded market input contains 10,000 messages plus two reset records. The synthetic workload is explicitly artificial. Native engines currently target Windows x64. Background activity, CPU frequency and affinity were not controlled in the saved experiment. The separate live test reached 2,000 messages without reconnects and recorded a three-second close-handshake timeout during shutdown; the journal was flushed and validated.
 
-Publication target, visibility and license are awaiting owner approval; see [publication inputs](docs/publication.md).
+Repository: [cyberskat/Goose_feedguard](https://github.com/cyberskat/Goose_feedguard). The code license remains an owner decision; see [publication inputs](docs/publication.md).
